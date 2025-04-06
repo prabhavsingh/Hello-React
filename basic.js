@@ -31,6 +31,7 @@ Tree shaking - remove unsed code
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+//recat.createElement => js object=> HTML element
 const heading = React.createElement(
   "h1",
   { id: "heading", key: "abc" },
